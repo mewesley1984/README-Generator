@@ -1,25 +1,30 @@
-# <Your-Project-Title>
-    blah undefined
+# README [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-    ## Description
-    blah
+## Github
+  mewesle
 
-    ## Table of Contents
+## Description
+  Homework
+
+## Email
+  Please email me @ mwesley@gmail.com with any additional questions.
+
+## Table of Contents
     
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Credits](#credits)
-    - [License](#license)
-    - [GitHub](#github)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [GitHub](#github)
     
-    ## Installation
-    blah
+## Installation
+  List steps
     
-    ## Usage
-    blah
+## Usage
+  provide instructions
+
+## Credits
+  Chris
     
-    ## License
-    Apache
-    
-    ## Github
-    me
+## License
+  GPL

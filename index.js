@@ -11,6 +11,16 @@ const questions = [
     },
     {
     type: 'input',
+    message: 'Please enter your GitHub username',
+    name: 'github'
+    },
+    {
+    type: 'input',
+    message: 'Please enter your email address',
+    name: 'email'
+    },
+    {
+    type: 'input',
     message: 'Please describe the project',
     name: 'description' 
     },
@@ -25,16 +35,18 @@ const questions = [
     name: 'usage'
     },
     {
+    type: 'input',
+    message: 'Who did you work with on this project?',
+    name: 'credits'
+    },
+    {
     type: 'list',
     message: 'Please select your license',
     name: 'license',
     choices: ['Apache','MIT','GPL','None']
     },
-    {
-    type: 'input',
-    message: 'Please enter your GitHub username',
-    name: 'github'
-    }
+    
+    
 
 ];
 
@@ -43,32 +55,7 @@ const questions = [
 function init() {  
     inquirer
      .prompt(questions).then(response => {
-    const readMeFile= `# <Your-Project-Title>
-    ${response.title} ${renderLicenseBadge(license)}
-
-    ## Description
-    ${response.description}
-
-    ## Table of Contents
-    
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Credits](#credits)
-    - [License](#license)
-    - [GitHub](#github)
-    
-    ## Installation
-    ${response.installation}
-    
-    ## Usage
-    ${response.usage}
-    
-    ## License
-    ${response.license}
-    
-    ## Github
-    ${response.github}`
-
+    const readMeFile = generateMD(response)
     fs.writeFile('./dist/README.md', readMeFile, (err) =>
     err ? console.error(err) : console.log('Success!')
      );  

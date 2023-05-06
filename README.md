@@ -25,3 +25,9 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
+
+## Mock Up
+The following video showcases the applications functionality
+
+![](./dist/README%20Generator.mp4)
+
