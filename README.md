@@ -30,6 +30,6 @@ THEN I am taken to the corresponding section of the README
 
 The following video showcases the applications functionality
 
-![](./dist/README%20Generator.mp4)
+![watch me](./dist/README%20Generator.mp4)
 
 
