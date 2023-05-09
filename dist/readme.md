@@ -1,13 +1,13 @@
-# README [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# Risa [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Github
-  mewesle
+  mewesley
 
 ## Description
-  Homework
+  homework
 
 ## Email
-  Please email me @ mwesley@gmail.com with any additional questions.
+  Please email me @ mwesley with any additional questions.
 
 ## Table of Contents
     
@@ -18,13 +18,13 @@
 - [GitHub](#github)
     
 ## Installation
-  List steps
+  steps
     
 ## Usage
-  provide instructions
+  examples
 
 ## Credits
-  Chris
+  myself
     
 ## License
-  GPL
+  MIT
