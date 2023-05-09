@@ -30,7 +30,7 @@ THEN I am taken to the corresponding section of the README
 
 The following video showcases the applications functionality
 
-![https://drive.google.com/file/d/15yTVg3dukiaKr2N4IdiKJRN-qszK49IF/view[]
+! [https://watch.screencastify.com/v/TId37cXJ4sHzCywmYmnJ]
 
 
 
