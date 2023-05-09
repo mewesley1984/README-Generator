@@ -30,6 +30,7 @@ THEN I am taken to the corresponding section of the README
 
 The following video showcases the applications functionality
 
-![watch me](./dist/README%20Generator.mp4)
+![https://drive.google.com/file/d/15yTVg3dukiaKr2N4IdiKJRN-qszK49IF/view[]
+
 
 
