@@ -27,7 +27,9 @@ THEN I am taken to the corresponding section of the README
 ```
 
 ## Mock Up
+
 The following video showcases the applications functionality
 
 ![](./dist/README%20Generator.mp4)
+
 
